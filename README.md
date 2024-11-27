@@ -39,11 +39,21 @@ The website is to have a navigation bar that should be present on all pages and 
 
 ## Technologies Used:
 
-**HTML5** for strucuturing the page semantically
+* **HTML5** for strucuturing the page semantically  
+* **Meta Tags** and **Open Graph** for SEO and Social Media Optimization.
 
 ## Future Technologies
 
+* Add CSS for styling and enhancing the visual appearance of My Portfolio.  
+* Use Flexbox for a responsive layout.  
+* Add JavaScript for interactivity.
+
 ## What I Learnt
+
+* I learnt that using semantic HTML tags such as `<header>`, `<main>`,        `<section>`, and `<footer>` to structure content helps improve accessibility
+and SEO.
+
+* How to create a structured navigation menu that links various pages of the site.
 
 ## Acknowledgments
 
