@@ -1,14 +1,31 @@
+<!-- 
+    2. Ensure I used the proper semantic HTML tags for each page
+    3. Finish up the Readme file
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="Frontend Developer, Projects, Education, Work Experience, Portfolio, Reviews, HTML" />
+    <meta name="description" content="Portfolio of Ifram3 showcasing work experience, projects, education, and teacher reviews. Explore my journey as a frontend developer." />
+    <meta name="author" content="Ifram3">
+    <!-- OG Meta Tags -->
+     <meta property="og:title" content="Basic HTML Website | Ifram3">
+     <meta property="og:type" content="Website">
+     <!-- <meta property="og:url" content="https://ifram3.github.io/">
+     <meta property="og:image" content="https://ifram3.github.io/images/og-image.jpg"> -->
+     <meta property="og:description" content="Explore Ifram3's portfolio showcasing projects, work experience, and education. A frontend developer's journey built using HTML only">
+     <!-- <meta property="og:site_name" content="Ifram3 Portfolio"> -->
+     <meta property="og:locale" content="en_US">
     <title>Basic HTML Website</title>
 </head>
 <body>
     <header>
         <div>
-            <img src="images/Ifram3.jpg" alt="logo">
+            <img src="images/Ifram3.jpg" alt="Ifram3 logo">
             <span>Ifram3</span>       
         </div>
 
@@ -26,7 +43,7 @@
     </header>
     
     <main>
-        <side-nav>
+        <aside>
             <h3>Projects</h3>
             <nav>
                 <p><a href="https://ifram3.github.io/Single-Page-CV/">Single Page CV</a></p>
@@ -36,7 +53,7 @@
                 <p><a href="#">Countdown Timer</a></p>
                 <p><a href="#">Product Upcoming Page</a></p>
             </nav>
-        </side-nav>
+        </aside>
         
         <section>
             <h3>Work Experience</h3>
@@ -45,7 +62,7 @@
                 <p>roadmap.sh</p>
                 <p>Solved all the frontend projects</p>
                 <a href="https://roadmap.sh/u/ifram3" target="_blank">Visit my Profile</a> 
-            <article>
+            </article>
 
                 <article>
                     <p>OpenSource Work</p>
@@ -61,19 +78,22 @@
             
                 <p>Courses I took:</p>
 
-                <p>- Object Oriented Programming</p>
-                <p>- Data Strcutures and Algorithms</p>
-                <p>- Web Engineering</p>
-                <p>- Artificial Inelligence</p>
-                <p>- Human Computer Interaction</p>
-                <p>- Computer Graphics</p>
-                <p>- Database Management Systems</p>
-                <p>- Distributed Database Systems</p>
-                <p>- Discreet Mathematics</p>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Web Engineering</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Human Computer Interaction</li>
+                    <li>Computer Graphics</li>
+                    <li>Database Management Systems</li>
+                    <li>Distributed Database Systems</li>
+                    <li>Discrete Mathematics</li>
+                </ul>
+                
             </div>
         </section>
 
-         <aside>
+         <section>
             <h3>Reviews from my Teachers</h3>
 
             <div>
@@ -92,7 +112,7 @@
                     <p>David Miller <br> Emeritus Professor</p>
                 </div>
             </div>
-        </aside>
+        </section>
     </main>
 
     <footer>    
